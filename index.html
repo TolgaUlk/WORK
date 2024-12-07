@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tolga Ulkumen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            line-height: 1.5;
+        }
+
+        /* Top Stripe */
+        .top-stripe {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-stripe a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .top-stripe a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .main-content {
+            text-align: center;
+            margin: 50px 20px;
+        }
+
+        .logo {
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+            background-color: black; /* Placeholder for logo */
+            border-radius: 50%;
+        }
+
+        .categories {
+            margin-top: 30px;
+        }
+
+        .categories a {
+            display: block;
+            margin: 20px auto;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            border: 2px solid black;
+            padding: 10px 20px;
+            width: fit-content;
+            transition: all 0.3s ease;
+        }
+
+        .categories a:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Stripe -->
+    <div class="top-stripe">
+        <div><a href="#">Home</a> <a href="#">Work</a> <a href="#">About</a> <a href="#">Contact</a></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Name and Logo -->
+        <div>
+            <div class="logo"></div>
+            <h1>Tolga Ulkumen</h1>
+        </div>
+
+        <!-- Categories -->
+        <div class="categories">
+            <a href="advertising.html">Advertising</a>
+            <a href="2d_animation.html">2D Animation</a>
+            <a href="illustration.html">Illustration</a>
+        </div>
+    </div>
+
+</body>
+</html>
